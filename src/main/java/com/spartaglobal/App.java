@@ -9,8 +9,9 @@ public class App {
         for (Planet planet : Planet.values()) {
             planet.printAll();
             System.out.println("The weight of an object which weights " + WEIGHT
-                    + " newtons would weight " + planet.getWeight(WEIGHT)
-                    + " newtons on planet " + planet.getName() + ".");
+                    + " newtons on Earth would weight "
+                    + planet.getWeight(WEIGHT) + " newtons on planet "
+                    + planet.getName() + ".");
             System.out.println();
         }
     }

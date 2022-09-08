@@ -16,8 +16,8 @@ kilogrammes; and
 - a double-precision floating-point number `relativeWeightIndex`, the
 gravitational acceleration at the surface of the planet, relative to Earth.
 
-Each of the four fields has a public accessor (or getter) and a public print
-method, which prints a formatted string containing the field to the standard output.
+Each of the four fields has a public accessor (or getter) method and a public
+print method, which prints a formatted string containing the field to the standard output.
 
 Additionally, the enum contains a `getWeight` method, which takes in the weight
 on Earth as a double and returns the weight on the planet represented by the
