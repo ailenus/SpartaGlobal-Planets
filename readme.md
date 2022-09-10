@@ -2,9 +2,9 @@
 
 Task for Engineering 149 at Sparta Global.
 
-This project demonstrates the enum type in Java, using an example enum
-`Planet`, which contains eight instances, representing the eight planets of the
-Solar System.
+This project demonstrates the enum type in Java, using an example enum `Planet`,
+which contains eight instances, representing the eight planets of the Solar
+System.
 
 The enum has four private fields:
 
@@ -17,7 +17,8 @@ kilogrammes; and
 gravitational acceleration at the surface of the planet, relative to Earth.
 
 Each of the four fields has a public accessor (or getter) method and a public
-print method, which prints a formatted string containing the field to the standard output.
+print method, which prints a formatted string containing the field to the
+standard output.
 
 Additionally, the enum contains a `getWeight` method, which takes in the weight
 on Earth as a double and returns the weight on the planet represented by the
